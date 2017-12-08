@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 4f945eac6e82a4c7994f6e9d13558f96
+timeCreated: 1508589974
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Torus_000
+    100004: Torus_001
+    100006: SurfPatch
+    100008: SurfPatch_001
+    100010: SurfPatch_002
+    100012: SurfPatch_003
+    100014: SurfPatch_004
+    100016: SurfPatch_005
+    100018: SurfPatch_006
+    100020: SurfPatch_007
+    100022: SurfPatch_008
+    100024: SurfPatch_009
+    100026: SurfPatch_010
+    100028: SurfPatch_011
+    100030: SurfPatch_012
+    100032: SurfPatch_013
+    100034: SurfTorus
+    400000: //RootNode
+    400002: Torus_000
+    400004: Torus_001
+    400006: SurfPatch
+    400008: SurfPatch_001
+    400010: SurfPatch_002
+    400012: SurfPatch_003
+    400014: SurfPatch_004
+    400016: SurfPatch_005
+    400018: SurfPatch_006
+    400020: SurfPatch_007
+    400022: SurfPatch_008
+    400024: SurfPatch_009
+    400026: SurfPatch_010
+    400028: SurfPatch_011
+    400030: SurfPatch_012
+    400032: SurfPatch_013
+    400034: SurfTorus
+    2300000: Torus_000
+    2300002: Torus_001
+    2300004: SurfPatch
+    2300006: SurfPatch_001
+    2300008: SurfPatch_002
+    2300010: SurfPatch_003
+    2300012: SurfPatch_004
+    2300014: SurfPatch_005
+    2300016: SurfPatch_006
+    2300018: SurfPatch_007
+    2300020: SurfPatch_008
+    2300022: SurfPatch_009
+    2300024: SurfPatch_010
+    2300026: SurfPatch_011
+    2300028: SurfPatch_012
+    2300030: SurfPatch_013
+    2300032: SurfTorus
+    3300000: Torus_000
+    3300002: Torus_001
+    3300004: SurfPatch
+    3300006: SurfPatch_001
+    3300008: SurfPatch_002
+    3300010: SurfPatch_003
+    3300012: SurfPatch_004
+    3300014: SurfPatch_005
+    3300016: SurfPatch_006
+    3300018: SurfPatch_007
+    3300020: SurfPatch_008
+    3300022: SurfPatch_009
+    3300024: SurfPatch_010
+    3300026: SurfPatch_011
+    3300028: SurfPatch_012
+    3300030: SurfPatch_013
+    3300032: SurfTorus
+    4300000: Torus_000
+    4300002: Torus_001
+    4300004: SurfPatch
+    4300006: SurfPatch_001
+    4300008: SurfPatch_002
+    4300010: SurfPatch_003
+    4300012: SurfPatch_004
+    4300014: SurfPatch_005
+    4300016: SurfPatch_006
+    4300018: SurfPatch_007
+    4300020: SurfPatch_008
+    4300022: SurfPatch_009
+    4300024: SurfPatch_010
+    4300026: SurfPatch_011
+    4300028: SurfPatch_012
+    4300030: SurfPatch_013
+    4300032: SurfTorus
+    6400000: SurfPatch
+    6400002: SurfPatch_001
+    6400004: SurfPatch_002
+    6400006: SurfPatch_003
+    6400008: SurfPatch_004
+    6400010: SurfPatch_005
+    6400012: SurfPatch_006
+    6400014: SurfPatch_007
+    6400016: SurfPatch_008
+    6400018: SurfPatch_009
+    6400020: SurfPatch_010
+    6400022: SurfPatch_011
+    6400024: SurfPatch_012
+    6400026: SurfPatch_013
+    6400028: SurfTorus
+    6400030: Torus_000
+    6400032: Torus_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
