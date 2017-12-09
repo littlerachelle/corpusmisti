@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;FD_GLASS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;FD_GLASS</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -44,10 +44,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -63,97 +63,150 @@
      <Compile Include="Assets\OVR\Editor\OVRPluginUpdater.cs" />
      <Compile Include="Assets\OVR\Editor\OVRPluginUpdaterStub.cs" />
      <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AnalyticsSender.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\AssetBrowserManager.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\AssetBrowserWindow.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\GUIHelper.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\ThumbnailCache.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\WelcomeWindow.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\CheckBuild.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\Importer\AttributionFileGenerator.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\Importer\PolyImporter.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\PostInstallHandler.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\PtAnalytics.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\PtSettingsEditor.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\PtUtils.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\WarnAboutUsingPolyInternal.cs" />
+     <Compile Include="Assets\PolyToolkit\Editor\WarnIfManagerNotInScene.cs" />
      <Compile Include="Assets\Scripts\Editor\OVRManagerEditor.cs" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Bubbles\Bubbles.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\SoftHighlighter\SoftHighlighter.shader" />
+     <None Include="Assets\PolyToolkit\Shaders\PolyToolkitPbrOpaqueDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\StandardDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Hypercolor\HypercolorSingleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\HyperGrid\HyperGrid.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Toon\Toon.shader" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseOpaqueDoubleSided.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
      <None Include="Assets\Floating_Dust_Particles\Floating_Dust_Particles - Readme.txt" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseOpaqueSingleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Shaders\Unlit-Diffuse.shader" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Hypercolor\HypercolorDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Disco\Disco.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\WaveformPulse\NeonPulse.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Highlighter\AdditiveCutout.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Shaders\Include\Brush.cginc" />
      <None Include="Assets\MaxP\Shaders\_Source\Shaders\Resources\Blur.shader" />
+     <None Include="Assets\PolyToolkit\ThirdParty\GPU-Voronoi-Noise\Assets\GPUVoronoiNoise\Shader\BlocksGemGPUVoronoiNoise.cginc" />
      <None Include="Assets\OVR\Resources\OVRMRUnlit.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Waveform\Waveform.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\VelvetInk\VelvetInk.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Stars\Stars.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Bloom.shader" />
      <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Embers\Embers.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksPaper\BlocksPaper.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksGlass\BlocksGlass.shader" />
      <None Include="Assets\Easy Input for Gear VR\ReadmeFirst.txt" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrameLit.shader" />
+     <None Include="Assets\PolyToolkit\Shaders\PolyToolkitPbrBlendDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\ThirdParty\Noise\Shaders\Noise.cginc" />
      <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
      <None Include="Assets\OVR\Resources\Alpha Premultiply.shader" />
+     <None Include="Assets\PolyToolkit\Editor\DummyVERSION.txt" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\LightWire\LightWire.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseSingleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Unlit.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\DoubleTaperedFlat\DiffuseNoTextureDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Shaders\Include\Particles.cginc" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Fire\Fire.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Streamers\Streamers.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Rainbow\Rainbow.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\DoubleTaperedMarker\DoubleTaperedMarker.shader" />
      <None Include="Assets\MaxP\Shaders\_Source\Shaders\Resources\DirtyLensFlare.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Plasma\Plasma.shader" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrame.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Dots\Dots.shader" />
      <None Include="Assets\OVR\Resources\OVRMRClipPlane.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksGem\BlocksGem.shader" />
      <None Include="Assets\ovr_unity_utilities_1.18.1 (1)\LICENSE.txt" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Electricity\Electricity.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Smoke\Smoke.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Snow\Snow.shader" />
      <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\ChromaticWave\ChromaticWave.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseDoubleSided.shader" />
+     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\StandardSingleSided.shader" />
      <None Include="Assets\OVR\Plugins\placeholder.txt" />
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Networking">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Timeline">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Analytics">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.HoloLens">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.VR">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>/Applications/Unity2017.1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions">
- <HintPath>/Applications/Unity2017.1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/Applications/Unity2017.1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
- <HintPath>/Applications/Unity2017.1/Unity2017.1.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ <HintPath>/Volumes/RIKA256GB/Applications/Unity 2017/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity2017.1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>/Applications/Unity2017.1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/Machineers/Documents/Berlin XR ArtJam/corpusmisti/GearVR2017/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
