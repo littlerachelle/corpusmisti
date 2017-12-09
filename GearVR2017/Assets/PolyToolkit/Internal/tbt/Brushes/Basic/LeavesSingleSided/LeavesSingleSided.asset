@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 103cd3480fe93f646be28a7da5812871, type: 3}
-  m_Name: Leaves
+  m_Name: LeavesSingleSided
   m_EditorClassIdentifier: 
   m_Guid:
     m_storage: ea19de07-d0c0-4484-9198-18489a3c1487

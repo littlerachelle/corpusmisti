@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 103cd3480fe93f646be28a7da5812871, type: 3}
-  m_Name: TaperedFlat
+  m_Name: TaperedFlatSingleSided
   m_EditorClassIdentifier: 
   m_Guid:
     m_storage: c8ccb53d-ae13-45ef-8afb-b730d81394eb

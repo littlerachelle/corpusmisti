@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 103cd3480fe93f646be28a7da5812871, type: 3}
-  m_Name: Flat
+  m_Name: FlatSingleSided
   m_EditorClassIdentifier: 
   m_Guid:
     m_storage: 280c0a7a-aad8-416c-a7d2-df63d129ca70
