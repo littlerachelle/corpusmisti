@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 103cd3480fe93f646be28a7da5812871, type: 3}
-  m_Name: Ink
+  m_Name: InkSingleSided
   m_EditorClassIdentifier: 
   m_Guid:
     m_storage: c0012095-3ffd-4040-8ee1-fc180d346eaa

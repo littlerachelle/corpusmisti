@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 103cd3480fe93f646be28a7da5812871, type: 3}
-  m_Name: Splatter
+  m_Name: SplatterSingleSided
   m_EditorClassIdentifier: 
   m_Guid:
     m_storage: 7a1c8107-50c5-4b70-9a39-421576d6617e
