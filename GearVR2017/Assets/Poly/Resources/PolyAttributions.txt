@@ -1,0 +1,19 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: blob
+Author: Berlin XR Art Jam team brilliant
+URL: https://poly.google.com/view/57SiUwcvFlk
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: eyes2
+Author: Berlin XR Art Jam team brilliant
+URL: https://poly.google.com/view/7J7279E4zj6
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: penis
+Author: Berlin XR Art Jam team brilliant
+URL: https://poly.google.com/view/3DrAW6eEk3k
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
