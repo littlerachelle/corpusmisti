@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-Shader "Brush/DiffuseOpaqueSingleSided" {
+Shader "Brush/DiffuseOpaque" {
 Properties {
   _Color ("Main Color", Color) = (1,1,1,1)
 }

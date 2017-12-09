@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-Shader "Brush/StandardSingleSided" {
+Shader "Brush/Standard" {
 Properties {
   _Color ("Main Color", Color) = (1,1,1,1)
   _SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 0)
