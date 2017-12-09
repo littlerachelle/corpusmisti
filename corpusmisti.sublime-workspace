@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "delete",
+		"selected_items":
+		[
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"json",
+				"Pretty JSON: Validate"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"file del",
+				"File: Delete"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"valid",
+				"Pretty JSON: Validate"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/corpusmisti",
+		"/C/corpusmisti/GearVR2017"
+	],
+	"file_history":
+	[
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Scripts/Shared/PaperDoll/PaperDollUtils.cs",
+		"/C/Users/rache/Documents/seed-art/tools/seedmaya/export.py",
+		"/C/Users/rache/Documents/corpusmisti/GearVR2017/.gitignore",
+		"/C/Users/rache/Documents/corpusmisti/filenames.txt",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Prefabs/ArtPrefabs/piles/titanium/titanium_pile_02_p.prefab",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Prefabs/ArtPrefabs/piles/gold/gold_pile_02_p.prefab.meta",
+		"/C/Users/rache/Documents/seed/project/schema/seed/shared/character/PaperDoll.schema",
+		"/C/Users/rache/Documents/seed/project/workers/unity/.spatialos/generated/usr/klang/seed/shared/character/PaperDoll.cs",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/female@sleep_on_bed.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Specs/GameTypes/Stone/STONE01.asset",
+		"/C/Users/rache/Documents/seed-art/tools/seedfbx/FbxCommon.py",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Scripts/Editor/AssetPostprocessors/FbxImportProfilePostProcessor.cs",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/female@sleep_on_bed.fbx",
+		"/C/Users/rache/Documents/seed-art/tools/seedmaya/gui/importprofile.py",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/SeedArtExport/animations/sleep_on_bed_loop.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/PickUpWoodBehaviour.cs",
+		"/C/Users/rache/Documents/seed-art/tools/seedmaya/startup.py",
+		"/C/Users/rache/OneDrive/Documents/maya/2017/prefs/hotkeys/userHotkeys_Maya_Default_Duplicate.mel",
+		"/C/Users/rache/OneDrive/Documents/maya/scripts/userSetup.mel",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Specs/GameTypes/Production/TEXTILEPROCESSOR.asset",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Specs/GameTypes/Production/WOODPROCESSOR.asset",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Specs/GameTypes/Production/CEMENTMIXER.asset",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/mixamo/button_pushing.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/PaperDoll/Animations/button_pushing.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/mixamo/normal_idle_new.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Barbarian/Models/Barbarian.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/t_pose.fbx.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/animations/new_test2.fbx",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Barbarian.meta",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/PaperDoll/Animations/bed_test.fbx.meta",
+		"/C/Users/rache/Documents/seed-art/content/animations/source/sleep_on_bed_loop_test.ma",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Scripts/Editor/AssetPostprocessors/FbxImportProfilePostProcessor.cs",
+		"/C/Users/rache/Documents/seed/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/props/machinery/wood_processor/wood_processor_group.clips",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/PaperDoll/Animations/kneeling_plant_loop.fbx.meta",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Scripts/Shared/PaperDoll/PaperDollUtils.cs",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Production/woodprocessor.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/GameTypes/Production/WOODPROCESSOR.asset",
+		"/C/Users/rache/OneDrive/Documents/maya/2017/scripts/remove_namespaces.mel",
+		"/C/Users/rache/OneDrive/Documents/maya/2017/scripts/springy.py",
+		"/C/Users/rache/Downloads/tweeny.py",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/PaperDoll/CharacterAnimationController.controller",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/fieldplowed.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/seedpod.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Plant/cornplant.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/characters/modular/male/male_skeleton.fbx.meta",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Tree/tree06.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Production/stoneprocessor.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Production/textileprocessor.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Materials/cement.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Refinery/refinery_ore.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Production/cementmixer.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Fibre/cotton.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Stone/stone01.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Wood/wood.json",
+		"/C/Users/rache/Documents/seed-art/content/workspace.mel",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/AspectSchemas/Info.schema.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/PaperDoll/Animations/sleep_on_bed_loop_fixed.fbx.meta",
+		"/C/Users/rache/Documents/seed-art/tools/setup/copy_me_to_game_dir_then_run_me.bat",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Scripts/Server/AI/Decorators/AnimationStateDecorator.cs",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Shaders/CharacterShader.shader",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/Production/furnitureprinter.json",
+		"/C/Users/rache/Documents/embryo/project/logs/spatial.log",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/props/outdoor/lamp/lamp_outdoor_p.prefab.meta",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/container.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/.spatialos/generated/usr/klang/seed/shared/character/AnimationState.cs",
+		"/C/Users/rache/Documents/seed-art/tools/setup/copy_me_to_maya_program_files_dir_and_run.bat",
+		"/C/Users/rache/Documents/seed-art/tools/setup/set_maya_dir_path.bat",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Graphics/characters/modular/male/male_skeleton.fbx",
+		"/C/Users/rache/Documents/embryo/setup.bat",
+		"/C/Users/rache/Documents/seed-art/content/characters/modular/male/male_skeleton.fbx",
+		"/C/Users/rache/Documents/seed-art/content/animations/sleep_on_bed_loop.fbx",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/tree.json",
+		"/C/Users/rache/Documents/embryo/project/workers/unity/Assets/Klang/Seed/Resources/Specs/Types/workbench.json",
+		"/C/Users/rache/AppData/Local/Temp/crash_71e39d0068f28243ac41752e4fa8e2ea/error.log",
+		"/C/Users/rache/Downloads/RapidRig_Basic_V01_01_01.zip"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"",
+			"*.py",
+			"*.cs",
+			"*.py",
+			"*.cs",
+			"*.py",
+			"*.asset",
+			"*.json",
+			"",
+			"*.json",
+			"",
+			"*.json",
+			"*.unity",
+			"*.prefab",
+			"*.json",
+			"*.fbx",
+			"*.bat"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_EMISSION",
+			"tex_furniture_emissive",
+			"emissive.mat",
+			"emissive",
+			"character",
+			"fbx",
+			"export",
+			"importprof",
+			"importProfile",
+			"character_module",
+			"userdata",
+			"assetimporter",
+			"PostProcessCharacterAnimation",
+			"import",
+			"startup",
+			"make_klang_tools_menu",
+			"klang tools",
+			"type",
+			"producer",
+			"refinery",
+			"producer",
+			"root_m",
+			"clips",
+			"root_m",
+			"Graphics.*_p",
+			"Graphics[\\w/_]+_p",
+			"Graphics[\\w/_]+_p\\s",
+			"Graphics[\\w/_]+_p",
+			"_p",
+			"packaging",
+			"packingeffort",
+			"seedpod",
+			"Error",
+			"error",
+			"set_pieces",
+			"legacy_assets",
+			"seed_pod",
+			"legacy_assets",
+			"test_tex",
+			"infopanelfeatures",
+			"AnchorSlots",
+			"lamp_outdoor_sml",
+			"lamp_outdoor",
+			"d15a4c7abc921e148a044cbab8234030",
+			"error",
+			"AnchorSlots",
+			"error",
+			"male_pelvis",
+			"hips",
+			"hand",
+			"seed_home"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "corpusmisti.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"paperdollutils",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Shared\\PaperDoll\\PaperDollUtils.cs"
+			],
+			[
+				".prefab",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Prefabs\\ArtPrefabs\\piles\\titanium\\titanium_pile_02_p.prefab"
+			],
+			[
+				"export",
+				"seed-art\\tools\\seedmaya\\export.py"
+			],
+			[
+				"character",
+				"seed\\project\\workers\\unity\\.spatialos\\generated\\usr\\klang\\seed\\shared\\character\\PaperDoll.cs"
+			],
+			[
+				"fbx",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Editor\\AssetPostprocessors\\FbxImportProfilePostProcessor.cs"
+			],
+			[
+				"femsleepme",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\animations\\female@sleep_on_bed.fbx.meta"
+			],
+			[
+				"sleepbedmeta",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\SeedArtExport\\animations\\sleep_on_bed_loop.fbx.meta"
+			],
+			[
+				"fesleep",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\animations\\female@sleep_on_bed.fbx"
+			],
+			[
+				"pickup",
+				"seed\\project\\workers\\unity\\Assets\\PickUpWoodBehaviour.cs"
+			],
+			[
+				"new_test2",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\animations\\new_test2.fbx"
+			],
+			[
+				"t_pose.fbx.me",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\animations\\t_pose.fbx.meta"
+			],
+			[
+				"fbximpo",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Editor\\AssetPostprocessors\\FbxImportProfilePostProcessor.cs"
+			],
+			[
+				"animpostpro",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Editor\\AssetPostprocessors\\FbxImportProfilePostProcessor.cs"
+			],
+			[
+				".clips",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\props\\machinery\\wood_processor\\wood_processor_group.clips"
+			],
+			[
+				"import",
+				"seed-art\\tools\\seedmaya\\gui\\importprofile.py"
+			],
+			[
+				"sleep",
+				"seed-art\\content\\animations\\source\\sleep_on_bed_loop_test.ma"
+			],
+			[
+				"bedtest",
+				"seed\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\PaperDoll\\Animations\\bed_test.fbx.meta"
+			],
+			[
+				"barbari",
+				"seed\\project\\workers\\unity\\Assets\\Barbarian\\Models\\Barbarian.fbx.meta"
+			],
+			[
+				"barbaria",
+				"seed\\project\\workers\\unity\\Assets\\Barbarian.meta"
+			],
+			[
+				"animationcontro",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\PaperDoll\\CharacterAnimationController.controller"
+			],
+			[
+				"woodprocessor.ass",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Specs\\GameTypes\\Production\\WOODPROCESSOR.asset"
+			],
+			[
+				"woodprocessor.json",
+				"C:\\Users\\rache\\Documents\\embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Specs\\Types\\Production\\woodprocessor.json"
+			],
+			[
+				"paperdollut",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Shared\\PaperDoll\\PaperDollUtils.cs"
+			],
+			[
+				"stone01",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Specs\\Types\\Stone\\stone01.json"
+			],
+			[
+				"plantloo",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\PaperDoll\\Animations\\kneeling_plant_loop.fbx.meta"
+			],
+			[
+				"kneelingplant",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\PaperDoll\\Animations\\kneeling_plant_loop.fbx.meta"
+			],
+			[
+				"male_skele",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\characters\\modular\\male\\male_skeleton.fbx.meta"
+			],
+			[
+				"bedfixed",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\PaperDoll\\Animations\\sleep_on_bed_loop_fixed.fbx.meta"
+			],
+			[
+				"lamp_outdoor_p",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Graphics\\props\\outdoor\\lamp\\lamp_outdoor_p.prefab.meta"
+			],
+			[
+				"postpro",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Editor\\AssetPostprocessors\\FbxImportProfilePostProcessor.cs"
+			],
+			[
+				"charactershad",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Shaders\\CharacterShader.shader"
+			],
+			[
+				"animationstate",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Server\\AI\\Decorators\\AnimationStateDecorator.cs"
+			],
+			[
+				"characteranimation",
+				"embryo\\project\\workers\\unity\\.spatialos\\generated\\usr\\klang\\seed\\shared\\character\\AnimationState.cs"
+			],
+			[
+				"sleeponbedl",
+				"seed-art\\content\\animations\\sleep_on_bed_loop.fbx"
+			],
+			[
+				"",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Shared\\PaperDoll\\PaperDollUtils.cs"
+			],
+			[
+				"tree.json",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Resources\\Specs\\Types\\tree.json"
+			],
+			[
+				"paperdolluti",
+				"embryo\\project\\workers\\unity\\Assets\\Klang\\Seed\\Scripts\\Shared\\PaperDoll\\PaperDollUtils.cs"
+			],
+			[
+				"setup.b",
+				"embryo\\setup.bat"
+			],
+			[
+				"set_may",
+				"seed-art\\tools\\setup\\set_maya_dir_path.bat"
+			],
+			[
+				"copy_me",
+				"seed-art\\tools\\setup\\copy_me_to_maya_program_files_dir_and_run.bat"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 379.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -142,6 +142,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   applicationIdentifier:
     Android: com.BrassBraids.GearVR2017
+    Standalone: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -235,10 +236,15 @@ PlayerSettings:
       m_Icon: {fileID: 2800000, guid: be13b2a02ca334490aab72ce0174b46f, type: 3}
       m_Width: 128
       m_Height: 128
+      m_Kind: 0
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
   - m_BuildTarget: Android
+    m_Enabled: 1
+    m_Devices:
+    - Oculus
+  - m_BuildTarget: Standalone
     m_Enabled: 1
     m_Devices:
     - Oculus
