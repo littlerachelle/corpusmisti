@@ -79,8 +79,32 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="CSCore">
+      <HintPath>Assets/ThirdParty/CSCore/CSCore.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BlurryRefraction\CommandBufferBlurRefraction.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\ExtraScripts\ColorizeGrid.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\ExtraScripts\EffectorVal.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\BETABlendShapeDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\CurveShapeDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\FlareDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\ImageDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\RippleDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\SimpleBlendShape.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\SineDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Mesh Deformers\TwistDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectRotateEffectorDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectScaleEffectorDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsImageDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsRipple.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectsSine.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Objects Deformer\ObjectTransformEffectorDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshAnimCurveDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshFlareDeformer.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\skinnedMeshRipple.cs" />
+    <Compile Include="Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshSine.cs" />
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Core\Datatypes\ButtonClick.cs" />
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Core\Datatypes\ControllerAxis.cs" />
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Core\Datatypes\InputTouch.cs" />
@@ -123,6 +147,7 @@
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Standard Controllers\StandardTiltController.cs" />
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Standard Controllers\StandardTouchDpadController.cs" />
     <Compile Include="Assets\Easy Input for Gear VR\Scripts\Standard Controllers\StandardTouchpadController.cs" />
+    <Compile Include="Assets\GameJam\RiftControllerMovement.cs" />
     <Compile Include="Assets\MaxP\Shaders\Scripts\DirtyLensFlare.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\HelloPoly.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\Rotate.cs" />
@@ -163,6 +188,8 @@
     <Compile Include="Assets\PolyToolkit\Internal\tbt\Scripts\BrushDescriptor.cs" />
     <Compile Include="Assets\PolyToolkit\Internal\tbt\Scripts\BrushManifest.cs" />
     <Compile Include="Assets\PolyToolkit\Internal\tbt\Scripts\SerializableGuid.cs" />
+    <Compile Include="Assets\PolyToolkit\Internal\tbt\Scripts\VisualizerAudioInput.cs" />
+    <Compile Include="Assets\PolyToolkit\Internal\tbt\Scripts\VisualizerManager.cs" />
     <Compile Include="Assets\PolyToolkit\Internal\tests\TestRuntimeImport.cs" />
     <Compile Include="Assets\PolyToolkit\Internal\ThumbnailFetcher.cs" />
     <Compile Include="Assets\PolyToolkit\Internal\UnityCompat.cs" />
@@ -216,8 +243,56 @@
     <Compile Include="Assets\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\Scripts\Util\OVRWaitCursor.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\AnimatorGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\CameraGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\ConstantMotionGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\GenericCurveGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\GenericGradientGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\GenericTriggerGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\GlobalSettingGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\JitterMotionGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\LightGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\MaterialGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\ParticleSystemGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\SpawnerGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Gear\TransformGear.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Injector\AudioInjector.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Injector\SystemAudioInjector.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\GenericLink.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\InjectorBase.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\InjectorLink.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\Modifier.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\Perlin.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\ReaktorLink.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\Remote.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Internal\Trigger.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Reaktor\Reaktor.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\BandPassFilter.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\ConstantMotion.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\GenericAudioInput.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\JitterMotion.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\ObjectParticleSystem.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\Planter.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\SelfDestruction.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\Spawner.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\TurbulentMotion.cs" />
+    <Compile Include="Assets\ThirdParty\Reaktion\Utility\VariableMotion.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Orbit.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\React.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\Sequence.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\BaseTrigger.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\PulseScale.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\StoryArrowNavigation.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\StoryManager.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\StoryScene.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\StoryTeleportPoint.cs" />
+    <Compile Include="Assets\TiltBrushExamples\Assets\Story\StoryTeleportTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\BlurryRefraction\GlassWithoutGrab.shader" />
+    <None Include="Assets\BlurryRefraction\SeparableBlur.shader" />
+    <None Include="Assets\BlurryRefraction\_ReadMe.txt" />
     <None Include="Assets\Easy Input for Gear VR\ReadmeFirst.txt" />
     <None Include="Assets\Floating_Dust_Particles\Floating_Dust_Particles - Readme.txt" />
     <None Include="Assets\MaxP\Shaders\_Source\Shaders\Resources\Blur.shader" />
@@ -236,6 +311,25 @@
     <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\Poly\Resources\PolyAttributions.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_005yzBo_VRi\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_0GeM17Wv2bn\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_1ZqXCHFuwbx\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_3IbbrOCQ4XN\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_7qxYGD_gf6F\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\Untitled_Berlin_XR_Art_Jam_team_brilliant_8b7HHMIPbPJ\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\_Untitled__Berlin_XR_Art_Jam_team_brilliant_1xLAZfCvDXj\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\_Untitled__Berlin_XR_Art_Jam_team_brilliant_9N7MzLITlNU\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\blob_Berlin_XR_Art_Jam_team_brilliant_57SiUwcvFlk\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\blob_Berlin_XR_Art_Jam_team_brilliant_aPRfWtNSQaQ\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\bubbles_Berlin_XR_Art_Jam_team_brilliant_am14ivUjwOH\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\dashing_Berlin_XR_Art_Jam_team_brilliant_4_HS2_oPA_\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\ear_Berlin_XR_Art_Jam_team_brilliant_b21ElUIikrH\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\eyes2_Berlin_XR_Art_Jam_team_brilliant_7J7279E4zj6\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\eyes_Berlin_XR_Art_Jam_team_brilliant_2U_aKIRLh52\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\penis_Berlin_XR_Art_Jam_team_brilliant_3DrAW6eEk3k\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\pussy_world_Berlin_XR_Art_Jam_team_brilliant_80ZaInBiWTX\FileNameMapping.txt" />
+    <None Include="Assets\Poly\Sources\touch_Berlin_XR_Art_Jam_team_brilliant_755RRWM277y\FileNameMapping.txt" />
     <None Include="Assets\PolyToolkit\Editor\DummyVERSION.txt" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Bubbles\Bubbles.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\ChromaticWave\ChromaticWave.shader" />
@@ -283,6 +377,11 @@
     <None Include="Assets\PolyToolkit\ThirdParty\Json-NET-for-Unity\Assemblies\Standalone\Newtonsoft.Json.XML" />
     <None Include="Assets\PolyToolkit\ThirdParty\Json-NET-for-Unity\Assemblies\Windows\Newtonsoft.Json.XML" />
     <None Include="Assets\PolyToolkit\ThirdParty\Noise\Shaders\Noise.cginc" />
+    <None Include="Assets\Shaders\GlassWithoutGrab.shader" />
+    <None Include="Assets\Shaders\SeparableBlur.shader" />
+    <None Include="Assets\TiltBrush\VERSION.txt" />
+    <None Include="Assets\TiltBrushExamples\Assets\Materials\AlwaysVisible.shader" />
+    <None Include="Assets\TiltBrushExamples\Assets\Shaders\Skybox.shader" />
     <None Include="Assets\ovr_unity_utilities_1.18.1 (1)\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
