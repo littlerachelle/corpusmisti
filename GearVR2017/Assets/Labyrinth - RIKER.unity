@@ -719,6 +719,70 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ed8c52a95d65b4da3acc32296fa4d798, type: 2}
+    - target: {fileID: 100026, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: floor-world01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: floor-world02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c3717873792774522a346fa866653e9b, type: 2}
+    - target: {fileID: 2300024, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c3717873792774522a346fa866653e9b, type: 2}
+    - target: {fileID: 100030, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: floor-world03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: floor-world04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300026, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6cf10183eb5b45fab51f52306a3d775, type: 2}
+    - target: {fileID: 100002, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300028, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a199b8a2a8ae4fe8bb092a00b3b1e4a, type: 2}
+    - target: {fileID: 100042, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: Sphere World01
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: Sphere World02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: Sphere World03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
+      propertyPath: m_Name
+      value: Sphere World04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bce202b661884a31ae075ec808b6a95, type: 3}
   m_IsPrefabParent: 0
