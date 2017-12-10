@@ -19,7 +19,7 @@ public class RiftControllerMovement : MonoBehaviour {
 
         Vector3 relMove = Vector3.zero;
 
-        Vector2 primaryAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        Vector2 primaryAxis = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
         if (primaryAxis.magnitude > 0.1f)
         {
             Vector3 move = new Vector3(primaryAxis.x, 0.0f, primaryAxis.y) * speed;
@@ -29,5 +29,11 @@ public class RiftControllerMovement : MonoBehaviour {
             relMove = lookDir * move;
         }
 	    GetComponent<CharacterController>().SimpleMove(relMove);
+
+        Vector2 secondaryAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+	    if (secondaryAxis.magnitude > 0.1f)
+	    {
+            transform.Rotate(Vector3.up, secondaryAxis.x);
+        }
     }
 }
