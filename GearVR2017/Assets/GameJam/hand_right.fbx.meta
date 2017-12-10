@@ -13,8 +13,11 @@ ModelImporter:
     400004: //RootNode
     2000000: CINEMA_4D_Editor
     2300000: _null_
+    2300002: //RootNode
     3300000: _null_
+    3300002: //RootNode
     4300000: _null_
+    4300002: righthand
     9500000: //RootNode
   materials:
     importMaterials: 1

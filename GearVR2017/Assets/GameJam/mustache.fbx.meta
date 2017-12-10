@@ -12,6 +12,10 @@ ModelImporter:
     100008: //RootNode
     100010: Spline
     100012: Spline_1
+    100014: face
+    100016: mustache
+    100018: mustache_2
+    100020: mustache1
     400000: _null_
     400002: Capsule
     400004: Capsule_1
@@ -19,16 +23,32 @@ ModelImporter:
     400008: //RootNode
     400010: Spline
     400012: Spline_1
+    400014: face
+    400016: mustache
+    400018: mustache_2
+    400020: mustache1
     2000000: CINEMA_4D_Editor
     2300000: _null_
     2300002: Capsule
     2300004: Capsule_1
+    2300006: face
+    2300008: mustache
+    2300010: mustache_2
+    2300012: mustache1
     3300000: _null_
     3300002: Capsule
     3300004: Capsule_1
+    3300006: face
+    3300008: mustache
+    3300010: mustache_2
+    3300012: mustache1
     4300000: Capsule_1
     4300002: _null_
     4300004: Capsule
+    4300006: mustache
+    4300008: face
+    4300010: mustache_2
+    4300012: mustache1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -40,7 +60,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Avatar creation failed:\n\tCannot find root motion transform
+      '_null_'.\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
