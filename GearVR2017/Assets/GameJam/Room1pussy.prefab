@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 320780571121282020}
   - component: {fileID: 95256818185205188}
   - component: {fileID: 114388351750213388}
+  - component: {fileID: 114661290225670454}
   m_Layer: 0
   m_Name: vulva_new_Berlin_XR_Art_Jam_team_brilliant_ajHrZtzK2JV
   m_TagString: Untagged
@@ -262,14 +263,14 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -290,13 +291,13 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -376,6 +377,20 @@ Light:
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -391,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ea4934aecd74a0ba1244d2dee655d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mute: 1
+  mute: 0
 --- !u!114 &114303747982163808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -591,6 +606,95 @@ MonoBehaviour:
   output: 0
   outputAccumulated: 0
   outputDb: -60
+--- !u!114 &114661290225670454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003308439933980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c73495c07c574c8888398de99a9c523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reaktor:
+    _mode: 1
+    _reference: {fileID: 0}
+    _name: 
+    _forceUpdate: 0
+  position:
+    mode: 0
+    min: 0
+    max: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    arbitraryVector: {x: 0, y: 1, z: 0}
+    randomness: 0
+  rotation:
+    mode: 0
+    min: 0
+    max: 90
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    arbitraryVector: {x: 0, y: 1, z: 0}
+    randomness: 0
+  scale:
+    mode: 4
+    min: 1
+    max: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    arbitraryVector: {x: 1, y: 1, z: 1}
+    randomness: 0
+  addInitialValue: 1
 --- !u!135 &135876865298014054
 SphereCollider:
   m_ObjectHideFlags: 1
