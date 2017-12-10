@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearVR2017", "GearVR2017.csproj", "{451CF773-89EE-3AF7-14AC-A53AED4BD692}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearVR2017.Editor", "GearVR2017.Editor.csproj", "{A12949AA-C2B4-221A-2F4D-590CEA1E5342}"

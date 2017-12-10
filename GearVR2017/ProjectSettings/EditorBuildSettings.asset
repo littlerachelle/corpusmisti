@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/glasspalace.unity
     guid: ea72f1868a4184eff8a5129e40648050
-  - enabled: 1
+  - enabled: 0
     path: Assets/Labyrinth.unity
     guid: 36a7c101346ce457a9e6b71dcdf960bf
+  - enabled: 1
+    path: Assets/Labyrinth - RIKER.unity
+    guid: 49c330c6232ea443c9b9b74b6ae55055
