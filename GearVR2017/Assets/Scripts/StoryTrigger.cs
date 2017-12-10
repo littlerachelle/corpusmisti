@@ -23,7 +23,7 @@ public class StoryTrigger : MonoBehaviour {
     {
         if (other.GetComponent<CharacterController>() != null)
         {
-            if (storyClip != null)
+            if (storyClip != null && canPlay)
             {
                 AudioSource source = GetComponentInParent<AudioSource>();
                 if (source != null)
