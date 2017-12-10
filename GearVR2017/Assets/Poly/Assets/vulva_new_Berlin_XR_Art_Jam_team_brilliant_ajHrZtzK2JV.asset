@@ -17,7 +17,7 @@ MonoBehaviour:
   author: Berlin XR Art Jam team brilliant
   url: https://poly.google.com/view/ajHrZtzK2JV
   license: 1
---- !u!43 &43204359635614246
+--- !u!43 &43145017174028746
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
