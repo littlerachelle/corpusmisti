@@ -28,6 +28,6 @@ public class RiftControllerMovement : MonoBehaviour {
             Quaternion lookDir = Quaternion.LookRotation(headDir.normalized);
             relMove = lookDir * move;
         }
-        GetComponent<CharacterController>().Move(relMove);
+	    GetComponent<CharacterController>().SimpleMove(relMove);
     }
 }
