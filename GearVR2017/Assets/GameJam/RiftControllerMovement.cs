@@ -16,6 +16,9 @@ public class RiftControllerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //UnityEngine.VR
+
+        Vector3 relMove = Vector3.zero;
+
         Vector2 primaryAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
         if (primaryAxis.magnitude > 0.1f)
         {
@@ -23,8 +26,8 @@ public class RiftControllerMovement : MonoBehaviour {
             Vector3 headDir = headTransform.forward;
             headDir.y = 0;
             Quaternion lookDir = Quaternion.LookRotation(headDir.normalized);
-            Vector3 relMove = lookDir * move;
-            GetComponent<CharacterController>().Move(relMove);
+            relMove = lookDir * move;
         }
+        GetComponent<CharacterController>().Move(relMove);
     }
 }
