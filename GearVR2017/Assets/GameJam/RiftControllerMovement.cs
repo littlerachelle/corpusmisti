@@ -20,7 +20,10 @@ public class RiftControllerMovement : MonoBehaviour {
         if (primaryAxis.magnitude > 0.1f)
         {
             Vector3 move = new Vector3(primaryAxis.x, 0.0f, primaryAxis.y) * speed;
-            Vector3 relMove = headTransform.TransformVector(move);
+            Vector3 headDir = headTransform.forward;
+            headDir.y = 0;
+            Quaternion lookDir = Quaternion.LookRotation(headDir.normalized);
+            Vector3 relMove = lookDir * move;
             GetComponent<CharacterController>().Move(relMove);
         }
     }
