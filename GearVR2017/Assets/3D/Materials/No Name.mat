@@ -7,7 +7,11 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: No Name
+<<<<<<< Updated upstream
   m_Shader: {fileID: 4800000, guid: 561cd39ab4e063843a09f5c11c3a8531, type: 3}
+=======
+  m_Shader: {fileID: 202, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> Stashed changes
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -63,6 +67,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _InvFade: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
